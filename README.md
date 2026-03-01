@@ -99,7 +99,7 @@ This project helps businesses to:
 
 - ✅ Python (Pandas, NumPy)  
 - ✅ Data Visualization (Matplotlib, Seaborn, Plotly, WordCloud)  
-- ✅ NLP Libraries (NLTK, SpaCy)  
+- ✅ NLP Libraries (NLTK)  
 - ✅ Machine Learning (Scikit-Learn, TensorFlow, Keras)  
 - ✅ Imbalanced Data Handling (SMOTE, Under/Over Sampling)  
 - ✅ Deployment (Optional) – Streamlit  
