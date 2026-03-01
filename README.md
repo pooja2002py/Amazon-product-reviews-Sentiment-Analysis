@@ -1,74 +1,130 @@
- Amazon Product Review Sentiment Analysis using NLP
- 📌 Project Overview
-This project performs Sentiment Analysis on the Amazon Product Reviews dataset using Natural Language Processing (NLP) and Machine Learning techniques. The goal is to classify customer reviews into Positive and Negative sentiment categories.
-Sentiment analysis helps businesses extract actionable insights from customer feedback to improve product offerings, marketing strategies, and customer satisfaction.
+# 🛒 Amazon Product Reviews - Sentiment Analysis using NLP
 
-📂 Dataset
-📌 Dataset Source:
-🔗 https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews
-📌 Description:
-A dataset containing Amazon product reviews, including ratings, review text, summaries, and other relevant fields that help determine sentiment.
+## 📌 Overview
 
-🛠️ Project Workflow
-1️⃣ Data Processing
-✔ Handling missing values
-✔ Text normalization (lowercasing)
-✔ Stopword removal
-✔ Tokenization
-✔ Lemmatization
-✔ Text Vectorization
-TF-IDF
-Word2Vec
-Transformer embeddings (optional)
+This project focuses on performing **Sentiment Analysis** on the Amazon Fine Food Reviews dataset using **Natural Language Processing (NLP)** techniques.
 
-2️⃣ Handling Imbalanced Classes
-Real-world review data often has more positive reviews than negative. Techniques used:
-✔ Under-sampling
-✔ Over-sampling
-✔ SMOTE (Synthetic Minority Over-sampling Technique)
+The goal is to develop a Machine Learning model that accurately classifies customer reviews as:
 
-3️⃣ Exploratory Data Analysis (EDA)
-✔ Review count per rating
-✔ Sentiment distribution visualizations
-✔ Word clouds for positive & negative reviews
-✔ Top frequent tokens per sentiment class
+- ✅ Positive
+- ❌ Negative
 
-4️⃣ Model Training
-Traditional Machine Learning Models:
-✔ Logistic Regression
-✔ Naive Bayes
-✔ Support Vector Machines
-Advanced Models (Optional)
-✔ LSTM / BiLSTM
-✔ BERT / Transformer-based models
+By analyzing customer feedback, businesses can:
 
-📈 Results & Insights
-✔ Sentiment distribution charts
-✔ Top positive and negative review words
-✔ Performance comparison of models
-✔ Impact of sampling techniques
+- ✔️ Gain insights into consumer preferences  
+- ✔️ Improve product offerings  
+- ✔️ Enhance customer satisfaction  
 
-🧾 Sample Visualizations Included
-Sentiment Histogram
-Word Clouds
-Confusion Matrices
-ROC Curves
-Precision/Recall Bar Charts
+---
 
-💡 Business Impact
-Sentiment analysis of Amazon reviews provides:
-✔ Data-driven product improvements
-✔ Insight into customer response patterns
-✔ Better customer experience strategies
-✔ Identification of product issues in real-time
+## 📂 Dataset
 
-🖥️ Technologies Used
-Python
-Pandas & NumPy
-NLTK & SpaCy
-Scikit-Learn
-TensorFlow / Keras
-Matplotlib & Seaborn
-WordCloud
-imbalanced-learn (SMOTE)
-Streamlit (Deployment – Optional)
+### 📌 Dataset Source  
+Amazon Product Reviews Dataset (Amazon Fine Food Reviews)
+
+The dataset contains:
+- Review Text
+- Ratings
+- Review Summary
+- Product information
+
+---
+
+## 🛠 Project Workflow
+
+### 1️⃣ Data Preprocessing
+
+- ✔️ Handling missing values  
+- ✔️ Removing stopwords, punctuation, and special characters  
+- ✔️ Tokenization  
+- ✔️ Lemmatization  
+- ✔️ Text vectorization  
+
+#### Vectorization Techniques Used:
+- TF-IDF  
+- Word2Vec  
+- BERT Embeddings (optional advanced implementation)  
+
+---
+
+### 2️⃣ Handling Imbalanced Data
+
+Real-world review datasets are often skewed toward positive ratings.
+
+Techniques used:
+
+- ✔️ Under-sampling (removing excess positive reviews)  
+- ✔️ Over-sampling (optional)  
+- ✔️ SMOTE (optional)  
+
+---
+
+### 3️⃣ Exploratory Data Analysis (EDA)
+
+- ✔️ Distribution of Ratings and Sentiments  
+- ✔️ Word Clouds for Positive Reviews  
+- ✔️ Word Clouds for Negative Reviews  
+- ✔️ Top Frequent Words in each sentiment category  
+
+---
+
+### 4️⃣ Machine Learning Model
+
+#### 🔹 Traditional Model
+- Naive Bayes  
+
+#### 🔹 Evaluation Metrics
+- Precision  
+- Recall  
+- F1-Score  
+- Confusion Matrix  
+
+---
+
+## 📊 Results & Insights
+
+- 📌 Sentiment Distribution visualized using bar plots  
+- 📌 Word Clouds for frequently used words  
+- 📌 Performance comparison of models  
+- 📌 Impact of imbalance handling compared with raw dataset  
+
+---
+
+## 💼 Business Impact & Insights
+
+This project helps businesses to:
+
+- ✔️ Identify key themes in positive and negative reviews  
+- ✔️ Make data-driven product improvements  
+- ✔️ Optimize marketing strategies  
+- ✔️ Improve overall customer experience  
+
+---
+
+## 🖥️ Technologies Used
+
+- ✅ Python (Pandas, NumPy)  
+- ✅ Data Visualization (Matplotlib, Seaborn, Plotly, WordCloud)  
+- ✅ NLP Libraries (NLTK, SpaCy)  
+- ✅ Machine Learning (Scikit-Learn, TensorFlow, Keras)  
+- ✅ Imbalanced Data Handling (SMOTE, Under/Over Sampling)  
+- ✅ Deployment (Optional) – Streamlit  
+
+---
+
+## 🚀 Future Improvements
+
+- Add Neutral Sentiment classification  
+- Implement Deep Learning (LSTM / BERT)  
+- Deploy as a web application  
+- Real-time sentiment monitoring  
+
+---
+
+## 👩‍💻 Author
+
+**Pooja Yadav**  
+Data Science & Machine Learning Enthusiast  
+
+---
+
