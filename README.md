@@ -1,13 +1,7 @@
 # 🛒 Amazon Product Reviews - Sentiment Analysis using NLP
 
 ## 📌 Overview
-
-This project focuses on performing **Sentiment Analysis** on the Amazon Fine Food Reviews dataset using **Natural Language Processing (NLP)** techniques.
-
-The goal is to develop a Machine Learning model that accurately classifies customer reviews as:
-
-- ✅ Positive
-- ❌ Negative
+The Amazon Product Review Sentiment Analysis App is a Machine Learning–based web application that analyzes customer reviews and classifies them as Positive 😊 or Negative 😞 using Natural Language Processing (NLP) techniques.
 
 By analyzing customer feedback, businesses can:
 
