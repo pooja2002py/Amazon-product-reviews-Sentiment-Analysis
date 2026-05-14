@@ -5,6 +5,9 @@ import nltk
 from nltk.tokenize import word_tokenize 
 from nltk.corpus import stopwords 
 from sklearn.feature_extraction.text import TfidfTransformer
+import nltk
+nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # -----------------------------------
 # Download necessary NLTK resources
